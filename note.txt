@@ -11,3 +11,10 @@ git config --gobal user.email "studyhome0806@email.com"
     - git add -A
     - git comit -m "message"
     - git push -u origin master
+    lần sau nếu đã add chỉ cần nhấn 1 lần: git push nữa là đủ
+
+Branh
+    + Tạo nhánh mới, nhánh mới sau khi tạo sẽ có nội dung giống hoàn toàn so với nhánh gốc:
+        - git checkout -b ten_nhanh_moi
+    + chuyển nhánh
+        - git checkout ten_nhanh
